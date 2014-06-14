@@ -13,23 +13,12 @@ namespace Paperless
     public partial class Main : Form
     {
 
-        Splash splash;
-
         public Main()
         {
-            this.splash = new Splash();
-            this.splash.Show();
-
             InitializeComponent();
-
         }
 
-        private void MainShown(object sender, EventArgs e)
-        {
-            this.splash.Hide();
-        }
-
-        private void exitPaperlessToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

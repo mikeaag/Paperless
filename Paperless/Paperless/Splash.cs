@@ -19,7 +19,9 @@ namespace Paperless
 
         private void Splash_Shown(object sender, EventArgs e)
         {
-            
+            Main main = new Main();
+            main.Show();
+            this.Hide();
         }
     }
 }
