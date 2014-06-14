@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Paperless
 {
-    public partial class Form1 : Form
+    public partial class Splash : Form
     {
-        public Form1()
+        public Splash()
         {
             InitializeComponent();
+        }
+
+        private void Splash_Shown(object sender, EventArgs e)
+        {
+            
         }
     }
 }
