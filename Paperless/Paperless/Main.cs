@@ -23,6 +23,28 @@ namespace Paperless
             Application.Exit();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "PDF files (*.pdf) |*.pdf;";
+            openFileDialog.ShowDialog();
+
+            if (openFileDialog.FileName != null)
+            {
+                documentView.LoadFile(openFileDialog.FileName);
+            }
+        }
+
 
     }
 }

@@ -21,6 +21,10 @@ namespace Paperless
         {
             Main main = new Main();
             main.Show();
+        }
+
+        private void Splash_Hide(object sender, EventArgs e)
+        {
             this.Hide();
         }
     }
