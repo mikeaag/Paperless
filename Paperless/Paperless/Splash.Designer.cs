@@ -91,6 +91,7 @@
             this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.Transparent;
             this.Shown += new System.EventHandler(this.Splash_Shown);
+            this.Click += new System.EventHandler(this.Splash_Hide);
             ((System.ComponentModel.ISupportInitialize)(this.icon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
