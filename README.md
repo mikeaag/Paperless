@@ -1,4 +1,4 @@
 Paperless
 =========
 
-A digital document storage system for people who wish filing cabinets has a search feature.
+A digital document storage system for people who wish filing cabinets had a search feature.
