@@ -1,0 +1,45 @@
+ - Document
+     - DateCreated (DateTime)
+	 - DateReceived (DateTime)
+	 - From (Person)
+	 - Tags (Tag (Collection))
+	 - Document Data / Picture (DocumentFile)
+	 - Recipient (Person)
+	 - Notes (String)
+	 
+ - Person
+     - Title (String)
+	 - First Name (String)
+	 - Last Name (String)
+	 - Address (Address)
+	 - Phone Number (String)
+	 - Email Address (String)
+	 - Company (Company)
+	 - Job Title (String)
+	 - Notes (String)
+	 
+ - Address
+     - Address Line 1 (String)
+	 - Address Line 2 (String)
+	 - Town / City (String)
+	 - County (String)
+	 - PostCode (String)
+	 - Country (String)
+	 
+ - Company
+	 - Name (String)
+	 - Address (Address)
+	 = Phone Number (String)
+	 - Website (String)
+	 - Email (String)
+	 - Notes (String)
+	 
+ - Tag
+     - Name (String)
+	 
+ - DocumentFile
+	 - Filename (String)
+	 - Extention (String)
+	 - MimeType (String)
+	 - Data (Something?)
+	 
